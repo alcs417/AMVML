@@ -15,6 +15,7 @@ AMVML was developed in MATLAB 2014b environment, but it should be working in all
 We provided two functions, case study and global leave-one-out cross-validation(LOOCV), for users. To run the case study, please load the script 'casestudy.m' into your MATLAB programming environment and click 'run'. To run global LOOCV, please load the script 'global_loocv.m' accordingly and other operations are the same as that of case study. Users can also run the scripts in standard command-line mode, where you should input the following commands for each function, respectively:
 
 matlab -nodisplay -nodesktop -nosplash -r "global_loocv;exit;"
+
 matlab -nodisplay -nodesktop -nosplash -r "case_study;exit;"
 
 
