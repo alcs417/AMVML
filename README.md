@@ -12,11 +12,11 @@ AMVML was developed in MATLAB 2014b environment, but it should be working in all
 
 **Usage**
 
-We provided two functions, case study and global leave-one-out cross-validation(LOOCV), for users. To run the case study, please load the script 'casestudy.m' into your MATLAB programming environment and click 'run'. To run global LOOCV, please load the script 'global_loocv.m' accordingly and other operations are the same as that of case study. Users can also run the scripts in standard command-line mode, where you should input the following commands for each function, respectively:
+We provided two functions, case study and global leave-one-out cross-validation(LOOCV), for users. To run the case study, please load the script 'caseStudy.m' into your MATLAB programming environment and click 'run'. To run global LOOCV, please load the script 'global_loocv.m' accordingly and other operations are the same as that of case study. Users can also run the scripts in standard command-line mode, where you should input the following commands for each function, respectively:
 
 matlab -nodisplay -nodesktop -nosplash -r "global_loocv;exit;"
 
-matlab -nodisplay -nodesktop -nosplash -r "case_study;exit;"
+matlab -nodisplay -nodesktop -nosplash -r "caseStudy;exit;"
 
 
 All the datasets used in the code, i.e. miRNA sequence similarity, miRNA functional similarity, miRNA semantic similarity, disease semantic similarity and miRNA-disease associations are all provided in the corresponding 'datasets/\*.mat'.
@@ -27,7 +27,7 @@ There are two parameters alpha and beta in AMVML. The default value for both par
 
 **Output**
 
-The default output directory of AMVML is under the same directory where the scripts locate and it can be changed in the 'case_study.m' and 'global_loocv.m' file accordingly. All the results are stored in 'mat' file for convenience.
+The default output directory of AMVML is under the same directory where the scripts locate and it can be changed in the 'caseStudy.m' and 'global_loocv.m' file accordingly. All the results are stored in 'mat' file for convenience.
 
 **Contact**
 
