@@ -2,7 +2,7 @@
 
 Prediction of potential miRNA-disease associations based on adaptive multi-view multi-label learning
 
-For more details, please refer to the ReadMe.pdf file.
+Please refer to the Readme.pdf file for more details.
 
 **Method Description**
 
